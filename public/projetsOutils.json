@@ -1,0 +1,221 @@
+{
+    "projetsPro": [
+        {
+            "titre": "Luxeuil les Bains",
+            "logo": "public/img/logo/Luxeuil.png",
+            "date": "Février 2023",
+            "url": "https://www.luxeuil-vosges-sud.fr/",
+            "image": [
+                "public/img/projetPro/EDITO_LUX.png",
+                "public/img/projetPro/HOME_LUX.png"
+            ]
+        },
+        {
+            "titre": "Saône Doubs Bresse",
+            "logo": "public/img/logo/SDB.png",
+            "date": "Mai 2022",
+            "url": "https://www.saonedoubsbressetourisme.fr/",
+            "image": [
+                "public/img/projetPro/EDITO_SDB.png",
+                "public/img/projetPro/HOME_SDB.png"
+            ]
+        },
+        {
+            "titre": "Canal du Nivernais",
+            "logo": "public/img/logo/Nivernais.png",
+            "date": "Octobre 2022",
+            "url": "https://www.canal-du-nivernais.com/",
+            "image": [
+                "public/img/projetPro/EDITO_Nivernais.png",
+                "public/img/projetPro/HOME_Nivernais.png"
+            ]
+        },
+        {
+            "titre": "MASCOT",
+            "logo": "public/img/logo/Mascot.png",
+            "date": "Février 2023",
+            "url": "https://www.mascotbfc.com/",
+            "image": [
+                "public/img/projetPro/HOME_Mascot.png"
+            ]
+        },
+        {
+            "titre": "Morvans Sommet Grands Lacs",
+            "logo": "public/img/logo/morvan.png",
+            "date": "Avril 2023",
+            "url": "https://www.morvansommetsetgrandslacs.com/",
+            "image": [
+                "public/img/projetPro/EDITO_Morvans.png",
+                "public/img/projetPro/HOME_Morvans.png"
+            ]
+        },
+        {
+            "titre": "Haut Jura Saint Claude",
+            "logo": "public/img/logo/HJSC.png",
+            "date": "Décembre 2023",
+            "url": "https://www.haut-jura-saint-claude.com/",
+            "image": [
+                "public/img/projetPro/EDITO_HJSC.png",
+                "public/img/projetPro/HOME_HJSC.png"
+            ]
+        },
+        {
+            "titre": "Doubs Groupe",
+            "logo": "public/img/logo/DoubsGroupe.png",
+            "date": "Janvier 2024",
+            "url": "https://www.doubs-groupes.com/",
+            "image": [
+                "public/img/projetPro/EDITO_DoubsGroupe.png",
+                "public/img/projetPro/HOME_DoubsGroupe.png"
+            ]
+        },
+        {
+            "titre": "Doubs Pro",
+            "logo": "public/img/logo/DoubsPro.png",
+            "date": "Mai 2022",
+            "url": "https://www.doubs-tourisme-pro.com/",
+            "image": [
+                "public/img/projetPro/HOME_DoubsPro.png"
+            ]
+        },
+        {
+            "titre": "Bourgogne Coeur de Loire",
+            "logo": "public/img/logo/Loire.png",
+            "date": "Juillet 2022",
+            "url": "https://www.bourgogne-coeurdeloire.fr/",
+            "image": [
+                "public/img/projetPro/EDITO_Loire.png",
+                "public/img/projetPro/HOME_Loire.png"
+            ]
+        },
+        {
+            "titre": "Montbard",
+            "logo": "public/img/logo/Montbard.png",
+            "date": "Juin 2022",
+            "url": "https://www.ot-montbard.fr/",
+            "image": [
+                "public/img/projetPro/EDITO_Montbard.png",
+                "public/img/projetPro/HOME_Montbard.png"
+            ]
+        },
+        {
+            "titre": "Nevers",
+            "logo": "public/img/logo/NEVERS.png",
+            "date": "Aout 2024",
+            "url": "https://www.nevers-tourisme.com/",
+            "image": [
+                "public/img/projetPro/EDITO_Nevers.png",
+                "public/img/projetPro/HOME_Nevers.png"
+            ]
+        },
+        {
+            "titre": "Parc du Morvans",
+            "logo": "public/img/logo/ParcMorvans.png",
+            "date": "Mai 2025",
+            "url": "https://tourisme.parcdumorvan.org/",
+            "image": [
+                "public/img/projetPro/EDITO_Nevers.png",
+                "public/img/projetPro/HOME_Nevers.png"
+            ]
+        },
+        {
+            "titre": "Pouilly Bligny",
+            "logo": "public/img/logo/pouillyBligny.png",
+            "date": "Avril 2022",
+            "url": "https://www.tourismepouillybligny.fr/",
+            "image": [
+                "public/img/projetPro/HOME_Pouilly.png"
+            ]
+        },
+        {
+            "titre": "Terres d'Auxois",
+            "logo": "public/img/logo/Auxois.png",
+            "date": "Décembre 2022",
+            "url": "https://www.terres-auxois.fr/",
+            "image": [
+                "public/img/projetPro/EDITO_Auxois.png",
+                "public/img/projetPro/HOME_Auxois.png"
+            ]
+        },
+        {
+            "titre": "Design Divers",
+            "logo": "public/img/logo/Auxois.png",
+            "date": "2021-2025",
+            "url": "",
+            "image": [
+                "public/img/projetPro/Carte-adhe.png",
+                "public/img/projetPro/Carte.jpg",
+                "public/img/projetPro/HabillageVDS.jpg",
+                "public/img/projetPro/HabillageVDS_2.png",
+                "public/img/projetPro/VDS.jpg",
+                "public/img/projetPro/CarteMDJ.jpg"
+            ]
+        }
+    ],
+    "outilsLang": [
+        {
+            "image": "public/img/outilLang/HTML5.png"
+        },
+        {
+            "image": "public/img/outilLang/JavaScript.png"
+        },
+        {
+            "image": "public/img/outilLang/PhpStorm.png"
+        },
+        {
+            "image": "public/img/outilLang/Visual.png"
+        },
+        {
+            "image": "public/img/outilLang/AI.png"
+        },
+        {
+            "image": "public/img/outilLang/XD.png"
+        },
+        {
+            "image": "public/img/outilLang/Figma.png"
+        },
+        {
+            "image": "public/img/outilLang/Canva.png"
+        },
+        {
+            "image": "public/img/outilLang/Brevo.png"
+        },
+        {
+            "image": "public/img/outilLang/Monday.png"
+        }
+    ],
+    "projetPerso": [
+        {
+            "titre": "WolfMoon",
+            "image": "public/img/projetPerso/WolfMoon.png"
+        },
+        {
+            "titre": "The Passenger",
+            "image": "public/img/projetPerso/Passenger.png"
+        },
+        {
+            "titre": "Ville",
+            "image": "public/img/projetPerso/Ville.png"
+        },
+        {
+            "titre": "Jungle",
+            "image": "public/img/projetPerso/Jungle.png"
+        },
+        {
+            "titre": "FemmeVille",
+            "image": "public/img/projetPerso/FemmeVille.png"
+        },
+        {
+            "titre": "Locacheck",
+            "image": "public/img/projetPerso/LocaCheck.png"
+        },
+        {
+            "titre": "Twitch",
+            "image": "public/img/projetPerso/Twitch.png"
+        },
+        {
+            "titre": "Marie Logo",
+            "image": "public/img/projetPerso/Logo_Marie.png"
+        }
+    ]
+}
