@@ -1,0 +1,66 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  align-items: center;
+
+  img {
+    width: 100px;
+  }
+}
+
+.error {
+  font-size: 60px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.category {
+  padding: 20px 0;
+
+  &:nth-child(odd) {
+    text-align: right;
+  }
+
+  .elements {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .cards {
+      background: url("/public/img/fondCards.svg");
+      text-align: center;
+      align-content: center;
+
+      &.expePro {
+        width: 300px;
+        height: 300px;
+
+        img {
+          width: 250px;
+        }
+      }
+
+      &.projetPro {
+        width: 260px;
+        height: 260px;
+
+        img {
+          width: 180px;
+        }
+      }
+
+      &.outils {
+        width: 260px;
+        height: 260px;
+
+        img {
+          width: 180px;
+        }
+      }
+    }
+  }
+}
