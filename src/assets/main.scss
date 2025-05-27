@@ -31,7 +31,10 @@ header {
     gap: 10px;
 
     .cards {
-      background: url("/public/img/fondCards.svg");
+      background-image: url("/public/img/fondCards.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
       text-align: center;
       align-content: center;
 
@@ -58,7 +61,18 @@ header {
         height: 260px;
 
         img {
-          width: 180px;
+          max-width: 180px;
+          max-height: 180px;
+        }
+      }
+
+      &.projetPerso {
+        width: 260px;
+        height: 260px;
+
+        img {
+          max-width: 180px;
+          max-height: 180px;
         }
       }
     }

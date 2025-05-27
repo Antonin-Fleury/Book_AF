@@ -24,7 +24,7 @@
     <h1>Antonin FLEURY</h1>
 
     <p class="accroche">
-      Webdesigner / Développeur web depuis 3 ans, je suis en quêtes de nouvelles expériences professionnels. Je suis
+      Webdesigner / Développeur web depuis 3 ans, je suis en quête de nouvelles expériences professionnelles. Je suis
       toujours motivé, enthousiaste et curieux. J'aime apprendre et me perfectionner dans divers domaines.
     </p>
 
@@ -32,7 +32,7 @@
       <h2>
         Expériences Pro
       </h2>
-      <Cards :cards="cards" :theme="'Outils'" v-if="cards" />
+      <Cards :cards="cards" :theme="''" v-if="cards" />
     </div>
 
     <div class="category">
@@ -40,6 +40,13 @@
         Projets Pro
       </h2>
       <Cards :cards="cards" :theme="'projetPro'" v-if="cards" />
+    </div>
+
+    <div class="category">
+      <h2>
+        Outils
+      </h2>
+      <Cards :cards="cards" :theme="'outils'" v-if="cards" />
     </div>
 
     <div class="category">
