@@ -6,8 +6,9 @@
   <link rel="icon" href="/Book_AF/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Antonin FLEURY</title>
-  <style>@charset "UTF-8";
-@keyframes rotating {
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+    @keyframes rotating {
   from {
     transform: rotate(0deg);
   }
@@ -15,38 +16,39 @@
     transform: rotate(360deg);
   }
 }
-@font-face {
+    @font-face {
   font-family: "Oxta";
-  src: url("‘public/font/oxta/Oxta.woff’") format(‘woff’), url("‘public/font/oxta/Oxta.ttf") format(‘truetype’);
+  src: url("/Book_AF/assets/Oxta-Bl6Y36Le.ttf") format("truetype");
+  src: url("/Book_AF/assets/Oxta-Bf_cW_JM.woff") format("woff");
 }
-*,
+    *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
 }
-html,
+    html,
 body {
   overflow-x: hidden;
 }
-body {
+    body {
   color: white;
   background: #020202;
-  background-image: url("/Book_AF/assets/fond-CGMZP_U8.png");
+  background-image: url("/Book_AF/img/fond.png");
   font-family: "Kumbh Sans";
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-main {
+    main {
   position: relative;
   max-width: 1650px;
   margin: auto;
   padding: 0 50px;
 }
-main::before {
-  content: url("/Book_AF/assets/triangle-BoJbdB9w.svg");
+    main::before {
+  content: url("/Book_AF/img/triangle.svg");
   position: absolute;
   top: 200px;
   left: -100px;
@@ -54,41 +56,41 @@ main::before {
   z-index: -1;
   animation: rotating 10s linear infinite;
 }
-main::after {
-  content: url("/Book_AF/assets/triangleFond-DRF8aLXi.svg");
+    main::after {
+  content: url("/Book_AF/img/triangleFond.svg");
   position: absolute;
   top: 1000px;
   right: -750px;
   opacity: 0.5;
   z-index: -1;
 }
-h1,
+    h1,
 h2,
 h3 {
   font-family: "Oxta";
   margin-bottom: 20px;
 }
-h2,
+    h2,
 h3 {
   color: transparent;
 }
-a,
+    a,
 p,
 span {
   font-family: "Kumbh Sans";
 }
-h1 {
+    h1 {
   font-size: 100px;
 }
-h2 {
+    h2 {
   font-size: 75px;
   -webkit-text-stroke: white 2px;
 }
-h3 {
+    h3 {
   font-size: 50px;
   -webkit-text-stroke: white 1px;
 }
-a,
+    a,
 button {
   display: inline-block;
   clip-path: polygon(3% 0%, 97% 0%, 100% 10%, 100% 90%, 97% 100%, 3% 100%, 0% 90%, 0% 10%);
@@ -100,21 +102,21 @@ button {
   cursor: pointer;
   border: none;
 }
-a:hover,
+    a:hover,
 button:hover {
   background: rgb(229.5, 76.5, 0);
 }
-.overlayActif {
+    .overlayActif {
   overflow: hidden;
 }
-.right {
+    .right {
   justify-content: flex-end;
 }
-.accroche {
+    .accroche {
   max-width: 1000px;
   font-size: 25px;
 }
-@media (max-width: 980px) {
+    @media (max-width: 980px) {
   main::before {
     left: -200px;
   }
@@ -131,7 +133,7 @@ button:hover {
     font-size: 35px;
   }
 }
-@media (max-width: 500px) {
+    @media (max-width: 500px) {
   main::before {
     content: none;
   }
@@ -148,7 +150,7 @@ button:hover {
     font-size: 35px;
   }
 }
-@media (max-width: 375px) {
+    @media (max-width: 375px) {
   h1,
   h2,
   h3 {
@@ -167,58 +169,58 @@ button:hover {
     font-size: 18px;
   }
 }
-header {
+    header {
   display: flex;
   justify-content: space-between;
   margin: 10px 20px;
   align-items: center;
 }
-header img {
+    header img {
   width: 100px;
 }
-header .contact {
+    header .contact {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
-header .contact a {
+    header .contact a {
   align-content: center;
 }
-header .contact .linkedin {
+    header .contact .linkedin {
   background: none;
   padding: 0;
 }
-header .contact img {
+    header .contact img {
   max-width: 45px;
   max-height: 45px;
 }
-.error {
+    .error {
   font-size: 60px;
   max-width: 1200px;
   margin: auto;
   padding: 0 50px;
   text-align: center;
 }
-.category {
+    .category {
   padding: 35px 0;
 }
-.category:nth-child(odd) {
+    .category:nth-child(odd) {
   text-align: right;
 }
-footer {
+    footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 50px;
   margin-top: 20px;
 }
-.elements {
+    .elements {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
-.elements .cards {
+    .elements .cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -231,58 +233,58 @@ footer {
   backdrop-filter: blur(14px);
   background-color: rgba(255, 255, 255, 0.2);
 }
-.elements .cards.expePro {
+    .elements .cards.expePro {
   width: 300px;
   height: 300px;
 }
-.elements .cards.expePro img {
+    .elements .cards.expePro img {
   width: 250px;
 }
-.elements .cards.expePro .arrow {
+    .elements .cards.expePro .arrow {
   width: 150px;
 }
-.elements .cards.projetPro {
+    .elements .cards.projetPro {
   width: 260px;
   height: 260px;
 }
-.elements .cards.projetPro img {
+    .elements .cards.projetPro img {
   width: 180px;
 }
-.elements .cards.outils {
+    .elements .cards.outils {
   width: 150px;
   height: 150px;
 }
-.elements .cards.outils img {
+    .elements .cards.outils img {
   max-width: 120px;
   max-height: 120px;
 }
-.elements .cards.etude {
+    .elements .cards.etude {
   width: 150px;
   height: 150px;
   padding-bottom: 2px;
 }
-.elements .cards.etude img {
+    .elements .cards.etude img {
   max-width: 75px;
   max-height: 75px;
 }
-.elements .cards.projetPerso {
+    .elements .cards.projetPerso {
   width: 260px;
   height: 260px;
 }
-.elements .cards.projetPerso img {
+    .elements .cards.projetPerso img {
   max-width: 200px;
   max-height: 200px;
 }
-.elements .cards .titre {
+    .elements .cards .titre {
   font-family: "Oxta";
   font-size: 12px;
   margin-bottom: 5px;
 }
-.elements .cards .date {
+    .elements .cards .date {
   font-family: "Oxta";
   margin-top: 10px;
 }
-.elements .overlay {
+    .elements .overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -294,7 +296,7 @@ footer {
   align-items: center;
   z-index: 1000;
 }
-.elements .overlay .popup {
+    .elements .overlay .popup {
   position: relative;
   text-align: center;
   align-content: center;
@@ -306,44 +308,44 @@ footer {
   max-width: 500px;
   width: 90%;
 }
-.elements .overlay .popup .description {
+    .elements .overlay .popup .description {
   max-width: 500px;
 }
-.elements .overlay .popup .image {
+    .elements .overlay .popup .image {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.elements .overlay .popup .image a {
+    .elements .overlay .popup .image a {
   background: none;
   padding: 0;
 }
-.elements .overlay .popup .image.-projetPro img {
+    .elements .overlay .popup .image.-projetPro img {
   max-width: 150px;
   max-height: 400px;
   margin: 10px;
 }
-.elements .overlay .popup .image.-projetPerso img {
+    .elements .overlay .popup .image.-projetPerso img {
   width: 300px;
   margin: 0.5rem;
 }
-.elements .overlay .popup button {
+    .elements .overlay .popup button {
   clip-path: none;
   position: absolute;
   top: -18px;
   right: -16px;
-  background-image: url("data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='44.95'%20height='44.049'%20viewBox='0%200%2044.95%2044.049'%3e%3cg%20transform='translate(-1504.306%20-717.525)'%3e%3cpath%20d='M18.523,23.473l-21-21,4.95-4.95,21,21Z'%20transform='translate(1507.004%20720)'%20fill='%23f50'/%3e%3cpath%20d='M2.475,23.919l-4.95-4.95L18.97-2.475l4.95,4.95Z'%20transform='translate(1506.781%20737.655)'%20fill='%23f50'/%3e%3cpath%20d='M2.475,23.473l-4.95-4.95,21-21,4.95,4.95Z'%20transform='translate(1525.56%20720)'%20fill='%23f50'/%3e%3cpath%20d='M18.97,23.919-2.475,2.475l4.95-4.95L23.919,18.97Z'%20transform='translate(1525.336%20737.655)'%20fill='%23f50'/%3e%3c/g%3e%3c/svg%3e");
+  background-image: url("/Book_AF/img/cross.svg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 36px;
   height: 36px;
   background-color: transparent;
 }
-.elements .overlay .popup button:hover {
-  background-image: url("data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='44.95'%20height='44.049'%20viewBox='0%200%2044.95%2044.049'%3e%3cg%20transform='translate(-1504.306%20-717.525)'%3e%3cpath%20d='M18.523,23.473l-21-21,4.95-4.95,21,21Z'%20transform='translate(1507.004%20720)'%20fill='%23c40'/%3e%3cpath%20d='M2.475,23.919l-4.95-4.95L18.97-2.475l4.95,4.95Z'%20transform='translate(1506.781%20737.655)'%20fill='%23c40'/%3e%3cpath%20d='M2.475,23.473l-4.95-4.95,21-21,4.95,4.95Z'%20transform='translate(1525.56%20720)'%20fill='%23c40'/%3e%3cpath%20d='M18.97,23.919-2.475,2.475l4.95-4.95L23.919,18.97Z'%20transform='translate(1525.336%20737.655)'%20fill='%23c40'/%3e%3c/g%3e%3c/svg%3e");
+    .elements .overlay .popup button:hover {
+  background-image: url("/Book_AF/img/crossHover.svg");
   background-color: transparent;
 }
-@media (max-width: 980px) {
+    @media (max-width: 980px) {
   .elements .cards.expePro, .elements .cards.projetPro, .elements .cards.outils, .elements .cards.etude, .elements .cards.projetPerso {
     width: 200px;
     height: 200px;
@@ -360,7 +362,7 @@ footer {
     max-height: 125px;
   }
 }
-@media (max-width: 500px) {
+    @media (max-width: 500px) {
   .elements {
     justify-content: center;
   }
@@ -382,7 +384,7 @@ footer {
     max-width: 50px;
   }
 }
-@media (max-width: 375px) {
+    @media (max-width: 375px) {
   .elements .cards.expePro, .elements .cards.projetPro, .elements .cards.outils, .elements .cards.etude, .elements .cards.projetPerso {
     width: 250px;
     height: 250px;
@@ -399,7 +401,7 @@ footer {
   }
 }
   </style>
-  <script type="module" crossorigin src="/Book_AF/assets/index-CwfkiBkQ.js"></script>
+  <script type="module" crossorigin src="/Book_AF/assets/index-BC-VrOcz.js"></script>
 </head>
 
 <body>
