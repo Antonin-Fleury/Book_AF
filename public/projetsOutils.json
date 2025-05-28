@@ -1,4 +1,13 @@
 {
+    "expePro": [
+        {
+            "titre": "Bourgogne Franche-Comté Tourisme",
+            "logo": "public/img/logo/BFCT.jpg",
+            "date": "2021-2025",
+            "descCourte": "Comité régional du tourisme de Bourgogne-Franche-Comté",
+            "descrLongue": "fdsfd"
+        }
+    ],
     "projetsPro": [
         {
             "titre": "Luxeuil les Bains",
@@ -182,6 +191,18 @@
         },
         {
             "image": "public/img/outilLang/Monday.png"
+        }
+    ],
+    "etudes": [
+        {
+            "titre": "Iut informatique Belfort",
+            "logo": "public/img/logo/DUT.png",
+            "date": "2018-2020"
+        },
+        {
+            "titre": "Licence Webdesign Montbéliard",
+            "logo": "public/img/logo/WD.png",
+            "date": "2020-2021"
         }
     ],
     "projetPerso": [
