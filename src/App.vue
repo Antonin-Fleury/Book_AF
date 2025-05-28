@@ -79,7 +79,7 @@ const state = ref('loading')
 
 onMounted(() => {
   //fetch('./projetsOutilsDeploy.json')
-  fetch('./projetsOutilsDeploy.json')
+  fetch('./projetsOutils.json')
     .then(r => {
       if (r.ok) {
         return r.json()
