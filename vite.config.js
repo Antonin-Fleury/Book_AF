@@ -16,5 +16,5 @@ export default defineConfig({
     },
   },
 
-  // base: '/Book_AF/'
+  //base: '/Book_AF/'
 })
