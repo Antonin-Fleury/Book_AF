@@ -1,0 +1,272 @@
+.elements {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        clip-path: polygon(10% 0%,
+                /* coin supérieur gauche cassé */
+                90% 0%,
+                /* coin supérieur droit cassé */
+                100% 10%,
+                100% 90%,
+                /* coin inférieur droit cassé */
+                90% 100%,
+                10% 100%,
+                /* coin inférieur gauche cassé */
+                0% 90%,
+                0% 10%);
+        text-align: center;
+        align-content: center;
+        -webkit-backdrop-filter: blur(14px);
+        backdrop-filter: blur(14px);
+        background-color: rgba(255, 255, 255, 0.2);
+
+        &.expePro {
+            width: 300px;
+            height: 300px;
+
+            img {
+                width: 250px;
+            }
+
+            .arrow {
+                width: 150px;
+            }
+        }
+
+        &.projetPro {
+            width: 260px;
+            height: 260px;
+
+            img {
+                width: 180px;
+            }
+        }
+
+        &.outils {
+            width: 150px;
+            height: 150px;
+
+            img {
+                max-width: 120px;
+                max-height: 120px;
+            }
+        }
+
+        &.etude {
+            width: 150px;
+            height: 150px;
+            padding-bottom: 2px;
+
+            img {
+                max-width: 75px;
+                max-height: 75px;
+            }
+        }
+
+        &.projetPerso {
+            width: 260px;
+            height: 260px;
+
+            img {
+                max-width: 200px;
+                max-height: 200px;
+            }
+        }
+
+        .titre {
+            font-family: 'Oxta';
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            font-family: 'Oxta';
+            margin-top: 10px;
+        }
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+
+        .popup {
+            position: relative;
+            text-align: center;
+            align-content: center;
+            -webkit-backdrop-filter: blur(14px);
+            backdrop-filter: blur(14px);
+            background: rgba(255, 255, 255, 0.3);
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 500px;
+            width: 90%;
+
+            .description {
+                max-width: 500px;
+            }
+
+            .image {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                a {
+                    background: none;
+                    padding: 0;
+                }
+
+                &.-projetPro {
+                    img {
+                        max-width: 150px;
+                        max-height: 400px;
+                        margin: 10px;
+                    }
+                }
+
+                &.-projetPerso {
+                    img {
+                        width: 300px;
+                        margin: 0.5rem;
+                    }
+                }
+
+            }
+
+            button {
+                clip-path: none;
+                position: absolute;
+                top: -18px;
+                right: -16px;
+                background-image: url("/public/img/cross.svg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 36px;
+                height: 36px;
+
+                &:hover {
+                    background-image: url("/public/img/crossHover.svg");
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 980px) {
+
+        .cards {
+
+            &.expePro,
+            &.projetPro,
+            &.outils,
+            &.etude,
+            &.projetPerso {
+                width: 200px;
+                height: 200px;
+
+                img {
+                    max-width: 150px;
+                    max-height: 150px;
+                }
+
+                .arrow {
+                    width: 150px;
+                }
+            }
+
+            &.etude {
+                img {
+                    max-width: 125px;
+                    max-height: 125px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 500px) {
+        justify-content: center;
+
+        .cards {
+
+            &.expePro,
+            &.projetPro,
+            &.outils,
+            &.etude,
+            &.projetPerso {
+                width: 300px;
+                height: 300px;
+
+                img {
+                    max-width: 200px;
+                    max-height: 200px;
+                }
+
+                .arrow {
+                    width: 200px;
+                }
+            }
+
+            &.etude {
+                .titre {
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+        .overlay {
+            .popup {
+                .image {
+                    img {
+                        max-width: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 375px) {
+        .cards {
+
+            &.expePro,
+            &.projetPro,
+            &.outils,
+            &.etude,
+            &.projetPerso {
+                width: 250px;
+                height: 250px;
+
+                img {
+                    max-width: 150px;
+                    max-height: 150px;
+                }
+
+                .arrow {
+                    width: 100px;
+                }
+            }
+
+            &.etude {
+                .titre {
+                    font-size: 20px;
+                }
+            }
+
+        }
+    }
+}

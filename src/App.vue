@@ -3,6 +3,8 @@
   <header>
     <img src="/public/img/logo.png" alt="">
     <div class="contact">
+      <a href="https://www.linkedin.com/in/antonin-fleury-731888183/" target="_blank" class="linkedin"><img
+          src="/public/img/logo/LinkedIn.png" alt=""></a>
       <a href="mailto:antonin.fleury@hotmail.com">Contact</a>
     </div>
   </header>
@@ -15,11 +17,6 @@
     <button @click="reloadPage">Recharger</button>
   </div>
   <main v-else>
-    <div class="error" v-if="state === 'error'">
-      <p>
-        Impossible de charger le json
-      </p>
-    </div>
 
     <h1>Antonin FLEURY</h1>
 
@@ -27,39 +24,47 @@
       Webdesigner / Développeur web depuis 3 ans, je suis en quête de nouvelles expériences professionnelles. Je suis
       toujours motivé, enthousiaste et curieux. J'aime apprendre et me perfectionner dans divers domaines.
     </p>
+    <div :aria-busy="state === 'loading'">
+      <div class="category">
+        <h2>
+          Expériences Pro
+        </h2>
+        <Cards :cards="cards" :theme="'expePro'" v-if="cards" />
+      </div>
 
-    <div class="category">
-      <h2>
-        Expériences Pro
-      </h2>
-      <Cards :cards="cards" :theme="''" v-if="cards" />
+      <div class="category">
+        <h2>
+          Projets Pro
+        </h2>
+        <Cards :cards="cards" :theme="'projetPro'" v-if="cards" />
+      </div>
+
+      <div class="category">
+        <h2>
+          Outils
+        </h2>
+        <Cards :cards="cards" :theme="'outils'" v-if="cards" />
+      </div>
+
+      <div class="category">
+        <h2>
+          Etudes
+        </h2>
+        <Cards :cards="cards" :theme="'etude'" v-if="cards" />
+      </div>
+
+      <div class="category">
+        <h2>
+          Projets Perso
+        </h2>
+        <Cards :cards="cards" :theme="'projetPerso'" v-if="cards" />
+      </div>
+
     </div>
 
-    <div class="category">
-      <h2>
-        Projets Pro
-      </h2>
-      <Cards :cards="cards" :theme="'projetPro'" v-if="cards" />
-    </div>
-
-    <div class="category">
-      <h2>
-        Outils
-      </h2>
-      <Cards :cards="cards" :theme="'outils'" v-if="cards" />
-    </div>
-
-    <div class="category">
-      <h2>
-        Projets Perso
-      </h2>
-      <Cards :cards="cards" :theme="'projetPerso'" v-if="cards" />
-    </div>
-
-
-    <!-- <div :aria-busy="state === 'loading'">
-      <Cards :cards="cards" v-if="cards"/>
-    </div> -->
+    <footer>
+      <span>© 2025 Tous droits réservés</span>
+    </footer>
   </main>
 
 

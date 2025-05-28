@@ -7,6 +7,26 @@ header {
   img {
     width: 100px;
   }
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    a {
+      align-content: center;
+    }
+
+    .linkedin {
+      background: none;
+      padding: 0;
+    }
+
+    img {
+      max-width: 45px;
+      max-height: 45px;
+    }
+  }
 }
 
 .error {
@@ -18,63 +38,17 @@ header {
 }
 
 .category {
-  padding: 20px 0;
+  padding: 35px 0;
 
   &:nth-child(odd) {
     text-align: right;
   }
+}
 
-  .elements {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 10px;
-
-    .cards {
-      background-image: url("/public/img/fondCards.svg");
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-      text-align: center;
-      align-content: center;
-
-      &.expePro {
-        width: 300px;
-        height: 300px;
-
-        img {
-          width: 250px;
-        }
-      }
-
-      &.projetPro {
-        width: 260px;
-        height: 260px;
-
-        img {
-          width: 180px;
-        }
-      }
-
-      &.outils {
-        width: 260px;
-        height: 260px;
-
-        img {
-          max-width: 180px;
-          max-height: 180px;
-        }
-      }
-
-      &.projetPerso {
-        width: 260px;
-        height: 260px;
-
-        img {
-          max-width: 180px;
-          max-height: 180px;
-        }
-      }
-    }
-  }
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin-top: 20px;
 }
