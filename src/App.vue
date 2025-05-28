@@ -78,7 +78,7 @@ const cards = ref(null)
 const state = ref('loading')
 
 onMounted(() => {
-  fetch('/projetsOutils.json')
+  fetch('./projetsOutils.json')
     .then(r => {
       if (r.ok) {
         return r.json()
