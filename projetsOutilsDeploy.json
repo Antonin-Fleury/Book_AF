@@ -11,232 +11,232 @@
     "projetsPro": [
         {
             "titre": "Luxeuil les Bains",
-            "logo": "/Book_AF/assets/img/logo/Luxeuil.png",
+            "logo": "/Book_AF/img/logo/Luxeuil.png",
             "date": "Février 2023",
             "url": "https:www.luxeuil-vosges-sud.fr/",
             "image": [
-                "/Book_AF/assets/img/projetPro/EDITO_LUX.png",
-                "/Book_AF/assets/img/projetPro/HOME_LUX.png"
+                "/Book_AF/img/projetPro/EDITO_LUX.png",
+                "/Book_AF/img/projetPro/HOME_LUX.png"
             ]
         },
         {
             "titre": "Saône Doubs Bresse",
-            "logo": "/Book_AF/assets/img/logo/SDB.png",
+            "logo": "/Book_AF/img/logo/SDB.png",
             "date": "Mai 2022",
             "url": "https:www.saonedoubsbressetourisme.fr/",
             "image": [
-                "/Book_AF/assets/img/projetPro/EDITO_SDB.png",
-                "/Book_AF/assets/img/projetPro/HOME_SDB.png"
+                "/Book_AF/img/projetPro/EDITO_SDB.png",
+                "/Book_AF/img/projetPro/HOME_SDB.png"
             ]
         },
         {
             "titre": "Canal du Nivernais",
-            "logo": "/Book_AF/assets/img/logo/Nivernais.png",
+            "logo": "/Book_AF/img/logo/Nivernais.png",
             "date": "Octobre 2022",
             "url": "https:www.canal-du-nivernais.com/",
             "image": [
-                "/Book_AF/assets/img/projetPro/EDITO_Nivernais.png",
-                "/Book_AF/assets/img/projetPro/HOME_Nivernais.png"
+                "/Book_AF/img/projetPro/EDITO_Nivernais.png",
+                "/Book_AF/img/projetPro/HOME_Nivernais.png"
             ]
         },
         {
             "titre": "MASCOT",
-            "logo": "/Book_AF/assets/img/logo/Mascot.png",
+            "logo": "/Book_AF/img/logo/Mascot.png",
             "date": "Février 2023",
             "url": "https:www.mascotbfc.com/",
             "image": [
-                "/Book_AF/assets/img/projetPro/HOME_Mascot.png"
+                "/Book_AF/img/projetPro/HOME_Mascot.png"
             ]
         },
         {
             "titre": "Morvans Sommet Grands Lacs",
-            "logo": "/Book_AF/assets/img/logo/morvan.png",
+            "logo": "/Book_AF/img/logo/morvan.png",
             "date": "Avril 2023",
             "url": "https:www.morvansommetsetgrandslacs.com/",
             "image": [
-                "/Book_AF/assets/img/projetPro/EDITO_Morvans.png",
-                "/Book_AF/assets/img/projetPro/HOME_Morvans.png"
+                "/Book_AF/img/projetPro/EDITO_Morvans.png",
+                "/Book_AF/img/projetPro/HOME_Morvans.png"
             ]
         },
         {
             "titre": "Haut Jura Saint Claude",
-            "logo": "/Book_AF/assets/img/logo/HJSC.png",
+            "logo": "/Book_AF/img/logo/HJSC.png",
             "date": "Décembre 2023",
             "url": "https:www.haut-jura-saint-claude.com/",
             "image": [
-                "/Book_AF/assets/img/projetPro/EDITO_HJSC.png",
-                "/Book_AF/assets/img/projetPro/HOME_HJSC.png"
+                "/Book_AF/img/projetPro/EDITO_HJSC.png",
+                "/Book_AF/img/projetPro/HOME_HJSC.png"
             ]
         },
         {
             "titre": "Doubs Groupe",
-            "logo": "/Book_AF/assets/img/logo/DoubsGroupe.png",
+            "logo": "/Book_AF/img/logo/DoubsGroupe.png",
             "date": "Janvier 2024",
             "url": "https:www.doubs-groupes.com/",
             "image": [
-                "/Book_AF/assets/img/projetPro/EDITO_DoubsGroupe.png",
-                "/Book_AF/assets/img/projetPro/HOME_DoubsGroupe.png"
+                "/Book_AF/img/projetPro/EDITO_DoubsGroupe.png",
+                "/Book_AF/img/projetPro/HOME_DoubsGroupe.png"
             ]
         },
         {
             "titre": "Doubs Pro",
-            "logo": "/Book_AF/assets/img/logo/DoubsPro.png",
+            "logo": "/Book_AF/img/logo/DoubsPro.png",
             "date": "Mai 2022",
             "url": "https:www.doubs-tourisme-pro.com/",
             "image": [
-                "/Book_AF/assets/img/projetPro/HOME_DoubsPro.png"
+                "/Book_AF/img/projetPro/HOME_DoubsPro.png"
             ]
         },
         {
             "titre": "Bourgogne Coeur de Loire",
-            "logo": "/Book_AF/assets/img/logo/Loire.png",
+            "logo": "/Book_AF/img/logo/Loire.png",
             "date": "Juillet 2022",
             "url": "https:www.bourgogne-coeurdeloire.fr/",
             "image": [
-                "/Book_AF/assets/img/projetPro/EDITO_Loire.png",
-                "/Book_AF/assets/img/projetPro/HOME_Loire.png"
+                "/Book_AF/img/projetPro/EDITO_Loire.png",
+                "/Book_AF/img/projetPro/HOME_Loire.png"
             ]
         },
         {
             "titre": "Montbard",
-            "logo": "/Book_AF/assets/img/logo/Montbard.png",
+            "logo": "/Book_AF/img/logo/Montbard.png",
             "date": "Juin 2022",
             "url": "https:www.ot-montbard.fr/",
             "image": [
-                "/Book_AF/assets/img/projetPro/EDITO_Montbard.png",
-                "/Book_AF/assets/img/projetPro/HOME_Montbard.png"
+                "/Book_AF/img/projetPro/EDITO_Montbard.png",
+                "/Book_AF/img/projetPro/HOME_Montbard.png"
             ]
         },
         {
             "titre": "Nevers",
-            "logo": "/Book_AF/assets/img/logo/NEVERS.png",
+            "logo": "/Book_AF/img/logo/NEVERS.png",
             "date": "Aout 2024",
             "url": "https:www.nevers-tourisme.com/",
             "image": [
-                "/Book_AF/assets/img/projetPro/EDITO_Nevers.png",
-                "/Book_AF/assets/img/projetPro/HOME_Nevers.png"
+                "/Book_AF/img/projetPro/EDITO_Nevers.png",
+                "/Book_AF/img/projetPro/HOME_Nevers.png"
             ]
         },
         {
             "titre": "Parc du Morvans",
-            "logo": "/Book_AF/assets/img/logo/ParcMorvan.png",
+            "logo": "/Book_AF/img/logo/ParcMorvan.png",
             "date": "Mai 2025",
             "url": "https:tourisme.parcdumorvan.org/",
             "image": [
-                "/Book_AF/assets/img/projetPro/EDITO_Nevers.png",
-                "/Book_AF/assets/img/projetPro/HOME_Nevers.png"
+                "/Book_AF/img/projetPro/EDITO_Nevers.png",
+                "/Book_AF/img/projetPro/HOME_Nevers.png"
             ]
         },
         {
             "titre": "Pouilly Bligny",
-            "logo": "/Book_AF/assets/img/logo/pouillyBligny.png",
+            "logo": "/Book_AF/img/logo/pouillyBligny.png",
             "date": "Avril 2022",
             "url": "https:www.tourismepouillybligny.fr/",
             "image": [
-                "/Book_AF/assets/img/projetPro/HOME_Pouilly.png"
+                "/Book_AF/img/projetPro/HOME_Pouilly.png"
             ]
         },
         {
             "titre": "Terres d'Auxois",
-            "logo": "/Book_AF/assets/img/logo/Auxois.png",
+            "logo": "/Book_AF/img/logo/Auxois.png",
             "date": "Décembre 2022",
             "url": "https:www.terres-auxois.fr/",
             "image": [
-                "/Book_AF/assets/img/projetPro/EDITO_Auxois.png",
-                "/Book_AF/assets/img/projetPro/HOME_Auxois.png"
+                "/Book_AF/img/projetPro/EDITO_Auxois.png",
+                "/Book_AF/img/projetPro/HOME_Auxois.png"
             ]
         },
         {
             "titre": "Design Divers",
-            "logo": "/Book_AF/assets/img/logo/Auxois.png",
+            "logo": "/Book_AF/img/logo/Auxois.png",
             "date": "2021-2025",
             "url": "",
             "image": [
-                "/Book_AF/assets/img/projetPro/Carte-adhe.png",
-                "/Book_AF/assets/img/projetPro/Carte.jpg",
-                "/Book_AF/assets/img/projetPro/HabillageVDS.jpg",
-                "/Book_AF/assets/img/projetPro/HabillageVDS_2.png",
-                "/Book_AF/assets/img/projetPro/VDS.jpg",
-                "/Book_AF/assets/img/projetPro/CarteMDJ.jpg"
+                "/Book_AF/img/projetPro/Carte-adhe.png",
+                "/Book_AF/img/projetPro/Carte.jpg",
+                "/Book_AF/img/projetPro/HabillageVDS.jpg",
+                "/Book_AF/img/projetPro/HabillageVDS_2.png",
+                "/Book_AF/img/projetPro/VDS.jpg",
+                "/Book_AF/img/projetPro/CarteMDJ.jpg"
             ]
         }
     ],
     "outilsLang": [
         {
-            "image": "/Book_AF/assets/img/outilLang/HTML5.png"
+            "image": "/Book_AF/img/outilLang/HTML5.png"
         },
         {
-            "image": "/Book_AF/assets/img/outilLang/JavaScript.png"
+            "image": "/Book_AF/img/outilLang/JavaScript.png"
         },
         {
-            "image": "/Book_AF/assets/img/outilLang/PhpStorm.png"
+            "image": "/Book_AF/img/outilLang/PhpStorm.png"
         },
         {
-            "image": "/Book_AF/assets/img/outilLang/Visual.png"
+            "image": "/Book_AF/img/outilLang/Visual.png"
         },
         {
-            "image": "/Book_AF/assets/img/outilLang/AI.png"
+            "image": "/Book_AF/img/outilLang/AI.png"
         },
         {
-            "image": "/Book_AF/assets/img/outilLang/XD.png"
+            "image": "/Book_AF/img/outilLang/XD.png"
         },
         {
-            "image": "/Book_AF/assets/img/outilLang/Figma.png"
+            "image": "/Book_AF/img/outilLang/Figma.png"
         },
         {
-            "image": "/Book_AF/assets/img/outilLang/Canva.png"
+            "image": "/Book_AF/img/outilLang/Canva.png"
         },
         {
-            "image": "/Book_AF/assets/img/outilLang/Brevo.png"
+            "image": "/Book_AF/img/outilLang/Brevo.png"
         },
         {
-            "image": "/Book_AF/assets/img/outilLang/Monday.png"
+            "image": "/Book_AF/img/outilLang/Monday.png"
         }
     ],
     "etudes": [
         {
             "titre": "Iut informatique Belfort",
-            "logo": "/Book_AF/assets/img/logo/DUT.png",
+            "logo": "/Book_AF/img/logo/DUT.png",
             "date": "2018-2020"
         },
         {
             "titre": "Licence Webdesign Montbéliard",
-            "logo": "/Book_AF/assets/img/logo/WD.png",
+            "logo": "/Book_AF/img/logo/WD.png",
             "date": "2020-2021"
         }
     ],
     "projetPerso": [
         {
             "titre": "WolfMoon",
-            "image": "/Book_AF/assets/img/projetPerso/WolfMoon.png"
+            "image": "/Book_AF/img/projetPerso/WolfMoon.png"
         },
         {
             "titre": "The Passenger",
-            "image": "/Book_AF/assets/img/projetPerso/Passenger.png"
+            "image": "/Book_AF/img/projetPerso/Passenger.png"
         },
         {
             "titre": "Ville",
-            "image": "/Book_AF/assets/img/projetPerso/Ville.png"
+            "image": "/Book_AF/img/projetPerso/Ville.png"
         },
         {
             "titre": "Jungle",
-            "image": "/Book_AF/assets/img/projetPerso/Jungle.png"
+            "image": "/Book_AF/img/projetPerso/Jungle.png"
         },
         {
             "titre": "FemmeVille",
-            "image": "/Book_AF/assets/img/projetPerso/FemmeVille.png"
+            "image": "/Book_AF/img/projetPerso/FemmeVille.png"
         },
         {
             "titre": "Locacheck",
-            "image": "/Book_AF/assets/img/projetPerso/LocaCheck.png"
+            "image": "/Book_AF/img/projetPerso/LocaCheck.png"
         },
         {
             "titre": "Twitch",
-            "image": "/Book_AF/assets/img/projetPerso/Twitch.png"
+            "image": "/Book_AF/img/projetPerso/Twitch.png"
         },
         {
             "titre": "Marie Logo",
-            "image": "/Book_AF/assets/img/projetPerso/Logo_Marie.png"
+            "image": "/Book_AF/img/projetPerso/Logo_Marie.png"
         }
     ]
 }
