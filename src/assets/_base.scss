@@ -99,6 +99,7 @@ button {
   color: variables.$color_white;
   font-size: 18px;
   cursor: pointer;
+  border: none;
 
   &:hover {
     background: color.scale(variables.$color_main, $lightness: -10%);
