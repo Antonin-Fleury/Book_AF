@@ -1,10 +1,10 @@
 <template>
 
   <header>
-    <img src="/public/img/logo.png" alt="">
+    <img src="/img/logo.png" alt="">
     <div class="contact">
       <a href="https://www.linkedin.com/in/antonin-fleury-731888183/" target="_blank" class="linkedin"><img
-          src="/public/img/logo/LinkedIn.png" alt=""></a>
+          src="/img/logo/LinkedIn.png" alt=""></a>
       <a href="mailto:antonin.fleury@hotmail.com">Contact</a>
     </div>
   </header>
@@ -100,5 +100,3 @@ function reloadPage() {
   window.location.reload();
 }
 </script>
-
-<style lang="scss"></style>

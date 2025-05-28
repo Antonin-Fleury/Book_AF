@@ -153,7 +153,7 @@
                 position: absolute;
                 top: -18px;
                 right: -16px;
-                background-image: url("/public/img/cross.svg");
+                background-image: url("/img/cross.svg");
                 background-size: cover;
                 background-repeat: no-repeat;
                 width: 36px;
@@ -161,7 +161,7 @@
                 background-color: transparent;
 
                 &:hover {
-                    background-image: url("/public/img/crossHover.svg");
+                    background-image: url("/img/crossHover.svg");
                     background-color: transparent;
                 }
             }

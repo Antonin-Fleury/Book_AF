@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: 'Oxta';
-  src: url(‘public/font/oxta/Oxta.woff’) format(‘woff’),
-    url(‘public/font/oxta/Oxta.ttf) format(‘truetype’)
+  src: url('@/assets/font/oxta/Oxta.ttf') format('truetype');
+  src: url('@/assets/font/oxta/Oxta.woff') format('woff');
 }
 
 *,
@@ -23,7 +23,7 @@ body {
 body {
   color: variables.$color_white;
   background: variables.$color_fond;
-  background-image: url("/public/img/fond.png");
+  background-image: url("/img/fond.png");
   font-family: 'Kumbh Sans';
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -37,7 +37,7 @@ main {
   padding: 0 50px;
 
   &::before {
-    content: url("/public/img/triangle.svg");
+    content: url("/img/triangle.svg");
     position: absolute;
     top: 200px;
     left: -100px;
@@ -47,7 +47,7 @@ main {
   }
 
   &::after {
-    content: url("/public/img/triangleFond.svg");
+    content: url("/img/triangleFond.svg");
     position: absolute;
     top: 1000px;
     right: -750px;

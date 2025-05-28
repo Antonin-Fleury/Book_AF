@@ -17,7 +17,7 @@
         </div>
 
         <div :class="['cards', 'expePro']">
-            <img src="/public/img/arrow.svg" alt="" class="arrow">
+            <img src="/img/arrow.svg" alt="" class="arrow">
         </div>
     </div>
 
