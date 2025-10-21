@@ -5,7 +5,7 @@
             "logo": "/Book_AF/img/logo/BFCT.jpg",
             "date": "2021-2025",
             "descCourte": "Comité régional du tourisme de Bourgogne-Franche-Comté",
-            "descrLongue": "Créatif polyvalent, je conçois et intègre des sites web sur mesure dans un environnement WordPress personnalisé. J'assure également la création graphique (designs, bannières, affiches, visuels pour les réseaux sociaux, newsletters, vidéos courtes, etc.). En parallèle, j’occupe un rôle de chef de projet sur l’outil Monday, garantissant le suivi et la coordination efficace des projets de communication."
+            "descrLongue": "fdsfd"
         }
     ],
     "projetsPro": [
@@ -153,51 +153,43 @@
             "url": "",
             "image": [
                 "/Book_AF/img/projetPro/Carte-adhe.png",
+                "/Book_AF/img/projetPro/Carte.jpg",
                 "/Book_AF/img/projetPro/HabillageVDS.jpg",
                 "/Book_AF/img/projetPro/HabillageVDS_2.png",
-                "/Book_AF/img/projetPro/VDS.jpg"
+                "/Book_AF/img/projetPro/VDS.jpg",
+                "/Book_AF/img/projetPro/CarteMDJ.jpg"
             ]
         }
     ],
     "outilsLang": [
         {
-            "titre": "HTML5",
             "image": "/Book_AF/img/outilLang/HTML5.png"
         },
         {
-            "titre": "JavaScript",
             "image": "/Book_AF/img/outilLang/JavaScript.png"
         },
         {
-            "titre": "PhpStorm",
             "image": "/Book_AF/img/outilLang/PhpStorm.png"
         },
         {
-            "titre": "Visual Studio Code",
             "image": "/Book_AF/img/outilLang/Visual.png"
         },
         {
-            "titre": "Illustrator",
             "image": "/Book_AF/img/outilLang/AI.png"
         },
         {
-            "titre": "Adobe XD",
             "image": "/Book_AF/img/outilLang/XD.png"
         },
         {
-            "titre": "Figma",
             "image": "/Book_AF/img/outilLang/Figma.png"
         },
         {
-            "titre": "Canva",
             "image": "/Book_AF/img/outilLang/Canva.png"
         },
         {
-            "titre": "Brevo",
             "image": "/Book_AF/img/outilLang/Brevo.png"
         },
         {
-            "titre": "Monday",
             "image": "/Book_AF/img/outilLang/Monday.png"
         }
     ],
@@ -219,25 +211,21 @@
             "image": "/Book_AF/img/projetPerso/WolfMoon.png"
         },
         {
-            "titre": "Road Nothing",
-            "image": "/Book_AF/img/projetPerso/Road-bigtri_farwest.png"
+            "titre": "The Passenger",
+            "image": "/Book_AF/img/projetPerso/Passenger.png"
         },
         {
             "titre": "Ville",
             "image": "/Book_AF/img/projetPerso/Ville.png"
         },
         {
-            "titre": "Martin pécheur",
-            "image": "/Book_AF/img/projetPerso/Martin.png"
+            "titre": "Jungle",
+            "image": "/Book_AF/img/projetPerso/Jungle.png"
         },
         {
-            "titre": "CowBoy",
-            "image": "/Book_AF/img/projetPerso/CowBoy_FullFlat.png"
+            "titre": "FemmeVille",
+            "image": "/Book_AF/img/projetPerso/FemmeVille.png"
         },
-        {
-            "titre": "Halloween",
-            "image": "/Book_AF/img/projetPerso/Halloween.png"
-        }
         {
             "titre": "Locacheck",
             "image": "/Book_AF/img/projetPerso/LocaCheck.png"
@@ -245,6 +233,10 @@
         {
             "titre": "Twitch",
             "image": "/Book_AF/img/projetPerso/Twitch.png"
+        },
+        {
+            "titre": "Marie Logo",
+            "image": "/Book_AF/img/projetPerso/Logo_Marie.png"
         }
     ]
 }
