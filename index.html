@@ -45,7 +45,13 @@ body {
   position: relative;
   max-width: 1650px;
   margin: auto;
+  margin-top: 100px;
   padding: 0 50px;
+}
+    @media (max-width: 500px) {
+  main {
+    padding: 0 25px;
+  }
 }
     main::before {
   content: url("/Book_AF/img/triangle.svg");
@@ -79,6 +85,9 @@ p,
 span {
   font-family: "Kumbh Sans";
 }
+    p {
+  font-size: 25px;
+}
     h1 {
   font-size: 100px;
 }
@@ -104,7 +113,7 @@ button {
 }
     a:hover,
 button:hover {
-  background: rgb(229.5, 76.5, 0);
+  background: rgb(191.25, 63.75, 0) !important;
 }
     .overlayActif {
   overflow: hidden;
@@ -131,6 +140,9 @@ button:hover {
   }
   h3 {
     font-size: 35px;
+  }
+  p {
+    font-size: 20px;
   }
 }
     @media (max-width: 500px) {
@@ -168,12 +180,20 @@ button:hover {
   .accroche {
     font-size: 18px;
   }
+  p {
+    font-size: 16px;
+  }
 }
     header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 10px 20px;
+  padding: 10px 20px 0 20px;
   align-items: center;
+  background-color: #020202;
+  z-index: 1000;
 }
     header img {
   width: 100px;
@@ -194,6 +214,17 @@ button:hover {
   max-width: 45px;
   max-height: 45px;
 }
+    @media (max-width: 375px) {
+  header img {
+    width: 75px;
+  }
+  header .contact {
+    gap: 10px;
+  }
+  header .contact a:last-child {
+    height: 100%;
+  }
+}
     .error {
   font-size: 60px;
   max-width: 1200px;
@@ -204,8 +235,31 @@ button:hover {
     .category {
   padding: 35px 0;
 }
+    .category .texte {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+    .category .texte p {
+  margin-right: 10px;
+}
+    .category .texte.projetPerso a {
+  clip-path: none;
+  background: none;
+  padding: 0;
+}
+    .category .texte.projetPerso a img {
+  width: 50px;
+  height: 50px;
+}
+    .category .texte.projetPerso a:hover {
+  background: none !important;
+}
     .category:nth-child(odd) {
   text-align: right;
+}
+    .category:nth-child(odd) .texte {
+  justify-content: end;
 }
     footer {
   display: flex;
@@ -305,11 +359,13 @@ button:hover {
   background: rgba(255, 255, 255, 0.3);
   padding: 2rem;
   border-radius: 10px;
-  max-width: 500px;
+  max-width: 700px;
+  max-height: calc(100% - 100px);
   width: 90%;
 }
     .elements .overlay .popup .description {
   max-width: 500px;
+  place-self: center;
 }
     .elements .overlay .popup .image {
   display: flex;
@@ -320,16 +376,20 @@ button:hover {
   background: none;
   padding: 0;
 }
+    .elements .overlay .popup .image a:hover {
+  clip-path: none;
+  background: none !important;
+}
     .elements .overlay .popup .image.-projetPro img {
-  max-width: 150px;
-  max-height: 400px;
+  max-width: 200px;
+  max-height: 500px;
   margin: 10px;
 }
     .elements .overlay .popup .image.-projetPerso img {
-  width: 300px;
+  max-width: 300px;
   margin: 0.5rem;
 }
-    .elements .overlay .popup button {
+    .elements .overlay .popup .close {
   clip-path: none;
   position: absolute;
   top: -18px;
@@ -341,9 +401,14 @@ button:hover {
   height: 36px;
   background-color: transparent;
 }
-    .elements .overlay .popup button:hover {
+    .elements .overlay .popup .close:hover {
   background-image: url("/Book_AF/img/crossHover.svg");
   background-color: transparent;
+}
+    .elements .overlay .popup .close:hover {
+  background-image: url("/Book_AF/img/crossHover.svg") !important;
+  background-color: transparent !important;
+  background-size: cover !important;
 }
     @media (max-width: 980px) {
   .elements .cards.expePro, .elements .cards.projetPro, .elements .cards.outils, .elements .cards.etude, .elements .cards.projetPerso {
@@ -362,46 +427,143 @@ button:hover {
     max-height: 125px;
   }
 }
+    @media (max-width: 600px) {
+  .elements .overlay .popup .image.-projetPro a img {
+    max-width: 175px;
+  }
+}
     @media (max-width: 500px) {
   .elements {
     justify-content: center;
   }
-  .elements .cards.expePro, .elements .cards.projetPro, .elements .cards.outils, .elements .cards.etude, .elements .cards.projetPerso {
-    width: 300px;
-    height: 300px;
+  .elements .cards.expePro, .elements .cards.projetPro, .elements .cards.outils, .elements .cards.projetPerso {
+    width: 150px;
+    height: 150px;
   }
-  .elements .cards.expePro img, .elements .cards.projetPro img, .elements .cards.outils img, .elements .cards.etude img, .elements .cards.projetPerso img {
-    max-width: 200px;
-    max-height: 200px;
+  .elements .cards.expePro img, .elements .cards.projetPro img, .elements .cards.outils img, .elements .cards.projetPerso img {
+    max-width: 100px;
+    max-height: 125px;
   }
-  .elements .cards.expePro .arrow, .elements .cards.projetPro .arrow, .elements .cards.outils .arrow, .elements .cards.etude .arrow, .elements .cards.projetPerso .arrow {
+  .elements .cards.expePro .arrow, .elements .cards.projetPro .arrow, .elements .cards.outils .arrow, .elements .cards.projetPerso .arrow {
     width: 200px;
   }
+  .elements .cards.etude {
+    width: 150px;
+    height: 150px;
+  }
   .elements .cards.etude .titre {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .elements .cards.etude img {
+    max-width: 100px;
+    max-height: 75px;
   }
   .elements .overlay .popup .image img {
-    max-width: 50px;
+    max-width: 300px;
+  }
+  .elements .overlay .popup .image.-projetPro a img {
+    max-width: 100px;
   }
 }
     @media (max-width: 375px) {
-  .elements .cards.expePro, .elements .cards.projetPro, .elements .cards.outils, .elements .cards.etude, .elements .cards.projetPerso {
+  .elements .cards.expePro, .elements .cards.projetPro, .elements .cards.outils, .elements .cards.etude {
     width: 250px;
     height: 250px;
   }
-  .elements .cards.expePro img, .elements .cards.projetPro img, .elements .cards.outils img, .elements .cards.etude img, .elements .cards.projetPerso img {
+  .elements .cards.expePro img, .elements .cards.projetPro img, .elements .cards.outils img, .elements .cards.etude img {
     max-width: 150px;
     max-height: 150px;
   }
-  .elements .cards.expePro .arrow, .elements .cards.projetPro .arrow, .elements .cards.outils .arrow, .elements .cards.etude .arrow, .elements .cards.projetPerso .arrow {
+  .elements .cards.expePro .arrow, .elements .cards.projetPro .arrow, .elements .cards.outils .arrow, .elements .cards.etude .arrow {
     width: 100px;
+  }
+  .elements .cards.-projetPerso {
+    width: 250px;
+    height: 250px;
+  }
+  .elements .cards.-projetPerso img {
+    max-width: 150px;
+    max-height: 200px;
   }
   .elements .cards.etude .titre {
     font-size: 20px;
   }
+  .elements .overlay .popup {
+    padding: 1rem;
+  }
+}
+    .slider {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+    .slider .slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    .slider .slider-container a {
+  clip-path: none;
+}
+    .slider .slider-container a img {
+  max-width: 400px !important;
+}
+    .slider .slide-image {
+  width: 100%;
+  border-radius: 12px;
+  transition: opacity 0.5s ease-in-out;
+}
+    .slider .controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+    .slider .controls.-next {
+  right: 0;
+}
+    .slider .controls button {
+  background: #FF5500;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+    .slider .dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+    .slider .dots span {
+  height: 10px;
+  width: 10px;
+  background: gray;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+    .slider .dots span.active {
+  background: white;
+}
+    @media (max-width: 500px) {
+  .slider .slider-container a img {
+    max-width: 200px !important;
+  }
+}
+    @media (max-width: 375px) {
+  .slider .slider-container a img {
+    max-width: 150px !important;
+  }
 }
   </style>
-  <script type="module" crossorigin src="/Book_AF/assets/index-BC-VrOcz.js"></script>
+  <script type="module" crossorigin src="/Book_AF/assets/index-DH76CtDw.js"></script>
 </head>
 
 <body>
