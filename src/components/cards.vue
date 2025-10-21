@@ -4,7 +4,7 @@
         <div>
             <button v-for="expePro in cards.expePro" :key="expePro.titre" @click="openOverlay(expePro)"
                 :class="['cards', 'expePro']">
-                <img :src="expePro.logo" alt="">
+                <img :src="expePro.logo" :alt="expePro.titre + ' logo'">
                 <span class="date">{{ expePro.date }}</span>
             </button>
         </div>
@@ -12,7 +12,7 @@
             <div class="popup">
                 <h3>{{ selectedProjet?.titre }}</h3>
                 <p class="description">{{ selectedProjet?.descrLongue }}</p>
-                <button @click="closeOverlay"></button>
+                <button @click="closeOverlay" class="close"></button>
             </div>
         </div>
 
@@ -24,7 +24,7 @@
     <div v-if="theme === 'projetPro'" class="elements">
         <button v-for="projetPro in cards.projetsPro" :key="projetPro.titre" @click="openOverlay(projetPro)"
             :class="['cards', 'projetPro']">
-            <img :src="projetPro.logo" alt="">
+            <img :src="projetPro.logo" :alt="projetPro.titre + ' maquette'">
             <span class="date">{{ projetPro.date }}</span>
         </button>
 
@@ -33,18 +33,20 @@
                 <h3>{{ selectedProjet?.titre }}</h3>
                 <div class="image -projetPro">
                     <a v-for="(imageProjetPro, index) in
-                        selectedProjet?.image" :key="index" :href="imageProjetPro" target="_blank"><img
-                            :src="imageProjetPro" alt=""> </a>
+                        selectedProjet?.image" v-if="selectedProjet?.image.length <= 2" :key="index"
+                        :href="imageProjetPro" target="_blank"><img :src="imageProjetPro" alt=""> </a>
+
+                    <Slider :images="selectedProjet?.image" v-if="selectedProjet?.image.length > 2" />
                 </div>
                 <a :href="selectedProjet?.url" target="_blank">Voir le site</a>
-                <button @click="closeOverlay"></button>
+                <button @click="closeOverlay" class="close"></button>
             </div>
         </div>
     </div>
 
     <div v-if="theme === 'outils'" class="elements right">
         <div v-for="outils in cards.outilsLang" :key="outils.image" :class="['cards', 'outils']">
-            <img :src="outils.image" alt="">
+            <img :src="outils.image" :alt="outils.titre + ' logo'">
         </div>
     </div>
 
@@ -52,25 +54,27 @@
         <div v-for="etude in cards.etudes" :key="etude.titre" @click="openOverlay(etude)" :class="['cards', 'etude']">
             <span class="titre">{{ etude.titre }}</span>
 
-            <img :src="etude.logo" alt="">
+            <img :src="etude.logo" :alt="etude.titre + ' logo'">
             <span class="date">{{ etude.date }}</span>
         </div>
 
     </div>
 
     <div v-if="theme === 'projetPerso'" class="elements right">
+
         <button v-for="projetPerso in cards.projetPerso" :key="projetPerso.titre" @click="openOverlay(projetPerso)"
             :class="['cards', 'projetPerso']">
-            <img :src="projetPerso.image" alt="">
+            <img :src="projetPerso.image" :alt="projetPerso.titre">
         </button>
 
         <div v-if="showOverlay" class="overlay" @click.self="closeOverlay">
             <div class="popup">
                 <h3>{{ selectedProjet?.titre }}</h3>
                 <div class="image -projetPerso">
-                    <a :href="selectedProjet?.image" target="_blank"><img :src="selectedProjet?.image" alt=""></a>
+                    <a :href="selectedProjet?.image" target="_blank"><img :src="selectedProjet?.image"
+                            :alt="selectedProjet?.titre"></a>
                 </div>
-                <button @click="closeOverlay"></button>
+                <button @click="closeOverlay" class="close"></button>
             </div>
         </div>
     </div>
@@ -79,6 +83,8 @@
 
 <script setup>
 import { ref } from 'vue'
+
+import Slider from "./slider.vue"
 
 const props = defineProps({
     cards: Object,
@@ -99,5 +105,4 @@ function closeOverlay() {
     selectedProjet.value = null
     document.body.classList.remove('overlayActif');
 }
-
 </script>

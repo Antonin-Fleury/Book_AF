@@ -1,8 +1,15 @@
+@use 'variables.scss';
+
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 10px 20px;
+  padding: 10px 20px 0 20px;
   align-items: center;
+  background-color: variables.$color_fond;
+  z-index: 1000;
 
   img {
     width: 100px;
@@ -27,6 +34,20 @@ header {
       max-height: 45px;
     }
   }
+
+  @media (max-width: 375px) {
+    img {
+      width: 75px;
+    }
+
+    .contact {
+      gap: 10px;
+
+      a:last-child {
+        height: 100%;
+      }
+    }
+  }
 }
 
 .error {
@@ -40,8 +61,39 @@ header {
 .category {
   padding: 35px 0;
 
+  .texte {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    p {
+      margin-right: 10px;
+    }
+
+    &.projetPerso {
+      a {
+        clip-path: none;
+        background: none;
+        padding: 0;
+
+        img {
+          width: 50px;
+          height: 50px;
+        }
+
+        &:hover {
+          background: none !important;
+        }
+      }
+    }
+  }
+
   &:nth-child(odd) {
     text-align: right;
+
+    .texte {
+      justify-content: end;
+    }
   }
 }
 

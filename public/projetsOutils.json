@@ -5,7 +5,7 @@
             "logo": "/img/logo/BFCT.jpg",
             "date": "2021-2025",
             "descCourte": "Comité régional du tourisme de Bourgogne-Franche-Comté",
-            "descrLongue": "fdsfd"
+            "descrLongue": "Créatif polyvalent, je conçois et intègre des sites web sur mesure dans un environnement WordPress personnalisé. J'assure également la création graphique (designs, bannières, affiches, visuels pour les réseaux sociaux, newsletters, vidéos courtes, etc.). En parallèle, j’occupe un rôle de chef de projet sur l’outil Monday, garantissant le suivi et la coordination efficace des projets de communication."
         }
     ],
     "projetsPro": [
@@ -45,7 +45,7 @@
             "date": "Février 2023",
             "url": "https://www.mascotbfc.com/",
             "image": [
-                "/img/projetPro/HOME_Mascot.png"
+                "/img/projetPro/HOME_MASCOT.png"
             ]
         },
         {
@@ -153,44 +153,52 @@
             "url": "",
             "image": [
                 "/img/projetPro/Carte-adhe.png",
-                "/img/projetPro/Carte.jpg",
                 "/img/projetPro/HabillageVDS.jpg",
                 "/img/projetPro/HabillageVDS_2.png",
-                "/img/projetPro/VDS.jpg",
-                "/img/projetPro/CarteMDJ.jpg"
+                "/img/projetPro/VDS.jpg"
             ]
         }
     ],
     "outilsLang": [
         {
+            "titre": "HTML5",
             "image": "/img/outilLang/HTML5.png"
         },
         {
+            "titre": "JavaScript",
             "image": "/img/outilLang/JavaScript.png"
         },
         {
+            "titre": "PhpStorm",
             "image": "/img/outilLang/PhpStorm.png"
         },
         {
+            "titre": "Visual Studio Code",
             "image": "/img/outilLang/Visual.png"
         },
         {
+            "titre": "Illustrator",
             "image": "/img/outilLang/AI.png"
         },
         {
+            "titre": "Adobe XD",
             "image": "/img/outilLang/XD.png"
         },
         {
+            "titre": "Figma",
             "image": "/img/outilLang/Figma.png"
         },
         {
+            "titre": "Canva",
             "image": "/img/outilLang/Canva.png"
         },
         {
+            "titre": "Brevo",
             "image": "/img/outilLang/Brevo.png"
         },
         {
-            "image": "/img/outilLang/Monday.png"
+            "titre": "Monday",
+            "image": "/img/outilLang/monday.png"
         }
     ],
     "etudes": [
@@ -211,20 +219,24 @@
             "image": "/img/projetPerso/WolfMoon.png"
         },
         {
-            "titre": "The Passenger",
-            "image": "/img/projetPerso/Passenger.png"
+            "titre": "Road Nothing",
+            "image": "/img/projetPerso/Road-bigtri_farwest.png"
         },
         {
             "titre": "Ville",
             "image": "/img/projetPerso/Ville.png"
         },
         {
-            "titre": "Jungle",
-            "image": "/img/projetPerso/Jungle.png"
+            "titre": "Martin pécheur",
+            "image": "/img/projetPerso/Martin.png"
         },
         {
-            "titre": "FemmeVille",
-            "image": "/img/projetPerso/FemmeVille.png"
+            "titre": "CowBoy",
+            "image": "/img/projetPerso/CowBoy_FullFlat.png"
+        },
+        {
+            "titre": "Halloween",
+            "image": "/img/projetPerso/Halloween.png"
         },
         {
             "titre": "Locacheck",
@@ -233,10 +245,6 @@
         {
             "titre": "Twitch",
             "image": "/img/projetPerso/Twitch.png"
-        },
-        {
-            "titre": "Marie Logo",
-            "image": "/img/projetPerso/Logo_Marie.png"
         }
     ]
 }

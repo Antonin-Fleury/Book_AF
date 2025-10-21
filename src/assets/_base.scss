@@ -34,7 +34,12 @@ main {
   position: relative;
   max-width: 1650px;
   margin: auto;
+  margin-top: 100px;
   padding: 0 50px;
+
+  @media (max-width: 500px) {
+    padding: 0 25px;
+  }
 
   &::before {
     content: url("/img/triangle.svg");
@@ -74,6 +79,10 @@ span {
   font-family: 'Kumbh Sans';
 }
 
+p {
+  font-size: 25px;
+}
+
 h1 {
   font-size: 100px;
 }
@@ -102,7 +111,7 @@ button {
   border: none;
 
   &:hover {
-    background: color.scale(variables.$color_main, $lightness: -10%);
+    background: color.scale(variables.$color_main, $lightness: -25%) !important;
   }
 }
 
@@ -142,6 +151,10 @@ button {
   h3 {
     font-size: 35px;
   }
+
+  p {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -166,6 +179,7 @@ button {
   h3 {
     font-size: 35px;
   }
+
 }
 
 @media (max-width: 375px) {
@@ -190,5 +204,9 @@ button {
 
   .accroche {
     font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
   }
 }

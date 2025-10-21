@@ -3,8 +3,10 @@
   <header>
     <img src="/img/logo.png" alt="">
     <div class="contact">
+      <a href="https://www.instagram.com/tintin_prod.creative/" target="_blank" class="linkedin"><img
+          src="/img/projetPerso/Insta.png" alt="Logo instagram"> </a>
       <a href="https://www.linkedin.com/in/antonin-fleury-731888183/" target="_blank" class="linkedin"><img
-          src="/img/logo/LinkedIn.png" alt=""></a>
+          src="/img/logo/LinkedIn.png" alt="Logo LinkedIn"></a>
       <a href="mailto:antonin.fleury@hotmail.com">Contact</a>
     </div>
   </header>
@@ -36,6 +38,10 @@
         <h2>
           Projets Pro
         </h2>
+        <div class="texte projetPerso">
+          <p>Informations : des modifications ont étés apportés entre la maquette et le site public. Les clients gèrent
+            leurs site web, ils sont donc gérant et créateurs des pages. </p>
+        </div>
         <Cards :cards="cards" :theme="'projetPro'" v-if="cards" />
       </div>
 
@@ -57,6 +63,11 @@
         <h2>
           Projets Perso
         </h2>
+        <div class="texte projetPerso">
+          <p>Pour plus de design (un design tous les mercredis à 18h): </p><a
+            href="https://www.instagram.com/tintin_prod.creative/" target="_blank"> <img
+              src="/img/projetPerso/Insta.png" alt="Logo Instagram"> </a>
+        </div>
         <Cards :cards="cards" :theme="'projetPerso'" v-if="cards" />
       </div>
 
@@ -69,6 +80,10 @@
 
 
 </template>
+
+
+
+
 
 <script setup>
 import { onMounted, ref } from 'vue'

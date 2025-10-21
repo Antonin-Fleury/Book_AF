@@ -114,11 +114,13 @@
             background: rgba(255, 255, 255, 0.3);
             padding: 2rem;
             border-radius: 10px;
-            max-width: 500px;
+            max-width: 700px;
+            max-height: calc(100% - 100px);
             width: 90%;
 
             .description {
                 max-width: 500px;
+                place-self: center;
             }
 
             .image {
@@ -126,29 +128,36 @@
                 justify-content: center;
                 flex-wrap: wrap;
 
+
                 a {
                     background: none;
                     padding: 0;
+
+                    &:hover {
+                        clip-path: none;
+                        background: none !important;
+                    }
                 }
 
                 &.-projetPro {
                     img {
-                        max-width: 150px;
-                        max-height: 400px;
+                        max-width: 200px;
+                        max-height: 500px;
                         margin: 10px;
                     }
                 }
 
                 &.-projetPerso {
+
                     img {
-                        width: 300px;
+                        max-width: 300px;
                         margin: 0.5rem;
                     }
                 }
 
             }
 
-            button {
+            .close {
                 clip-path: none;
                 position: absolute;
                 top: -18px;
@@ -163,6 +172,14 @@
                 &:hover {
                     background-image: url("/img/crossHover.svg");
                     background-color: transparent;
+                }
+            }
+
+            .close {
+                &:hover {
+                    background-image: url("/img/crossHover.svg") !important;
+                    background-color: transparent !important;
+                    background-size: cover !important;
                 }
             }
         }
@@ -199,6 +216,23 @@
         }
     }
 
+    @media (max-width: 600px) {
+        .overlay {
+            .popup {
+                .image {
+
+                    &.-projetPro {
+                        a {
+                            img {
+                                max-width: 175px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     @media (max-width: 500px) {
         justify-content: center;
 
@@ -207,14 +241,13 @@
             &.expePro,
             &.projetPro,
             &.outils,
-            &.etude,
             &.projetPerso {
-                width: 300px;
-                height: 300px;
+                width: 150px;
+                height: 150px;
 
                 img {
-                    max-width: 200px;
-                    max-height: 200px;
+                    max-width: 100px;
+                    max-height: 125px;
                 }
 
                 .arrow {
@@ -224,7 +257,15 @@
 
             &.etude {
                 .titre {
-                    font-size: 20px;
+                    font-size: 15px;
+                }
+
+                width: 150px;
+                height: 150px;
+
+                img {
+                    max-width: 100px;
+                    max-height: 75px;
                 }
             }
 
@@ -234,7 +275,15 @@
             .popup {
                 .image {
                     img {
-                        max-width: 50px;
+                        max-width: 300px;
+                    }
+
+                    &.-projetPro {
+                        a {
+                            img {
+                                max-width: 100px;
+                            }
+                        }
                     }
                 }
             }
@@ -247,8 +296,7 @@
             &.expePro,
             &.projetPro,
             &.outils,
-            &.etude,
-            &.projetPerso {
+            &.etude {
                 width: 250px;
                 height: 250px;
 
@@ -262,12 +310,28 @@
                 }
             }
 
+            &.-projetPerso {
+                width: 250px;
+                height: 250px;
+
+                img {
+                    max-width: 150px;
+                    max-height: 200px;
+                }
+            }
+
             &.etude {
                 .titre {
                     font-size: 20px;
                 }
             }
 
+        }
+
+        .overlay {
+            .popup {
+                padding: 1rem;
+            }
         }
     }
 }
