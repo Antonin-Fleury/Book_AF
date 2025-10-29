@@ -10,62 +10,23 @@
     ],
     "projetsPro": [
         {
-            "titre": "Luxeuil les Bains",
-            "logo": "/Book_AF/img/logo/Luxeuil.png",
-            "date": "Février 2023",
-            "url": "https://www.luxeuil-vosges-sud.fr/",
+            "titre": "Parc du Morvans",
+            "logo": "/Book_AF/img/logo/ParcMorvan.png",
+            "date": "Mai 2025",
+            "url": "https://tourisme.parcdumorvan.org/",
             "image": [
-                "/Book_AF/img/projetPro/EDITO_Lux.png",
-                "/Book_AF/img/projetPro/HOME_Lux.png"
+                "/Book_AF/img/projetPro/EDITO_Morvans.png",
+                "/Book_AF/img/projetPro/HOME_Morvans.png"
             ]
         },
         {
-            "titre": "Saône Doubs Bresse",
-            "logo": "/Book_AF/img/logo/SDB.png",
-            "date": "Mai 2022",
-            "url": "https://www.saonedoubsbressetourisme.fr/",
+            "titre": "Nevers",
+            "logo": "/Book_AF/img/logo/NEVERS.png",
+            "date": "Aout 2024",
+            "url": "https://www.nevers-tourisme.com/",
             "image": [
-                "/Book_AF/img/projetPro/EDITO_SDB.png",
-                "/Book_AF/img/projetPro/HOME_SDB.png"
-            ]
-        },
-        {
-            "titre": "Canal du Nivernais",
-            "logo": "/Book_AF/img/logo/Nivernais.png",
-            "date": "Octobre 2022",
-            "url": "https://www.canal-du-nivernais.com/",
-            "image": [
-                "/Book_AF/img/projetPro/EDITO_Nivernais.png",
-                "/Book_AF/img/projetPro/HOME_Nivernais.png"
-            ]
-        },
-        {
-            "titre": "MASCOT",
-            "logo": "/Book_AF/img/logo/Mascot.png",
-            "date": "Février 2023",
-            "url": "https://www.mascotbfc.com/",
-            "image": [
-                "/Book_AF/img/projetPro/HOME_Mascot.png"
-            ]
-        },
-        {
-            "titre": "Morvans Sommet Grands Lacs",
-            "logo": "/Book_AF/img/logo/morvan.png",
-            "date": "Avril 2023",
-            "url": "https://www.morvansommetsetgrandslacs.com/",
-            "image": [
-                "/Book_AF/img/projetPro/EDITO_MSGL.png",
-                "/Book_AF/img/projetPro/HOME_MSGL.png"
-            ]
-        },
-        {
-            "titre": "Haut Jura Saint Claude",
-            "logo": "/Book_AF/img/logo/HJSC.png",
-            "date": "Décembre 2023",
-            "url": "https://www.haut-jura-saint-claude.com/",
-            "image": [
-                "/Book_AF/img/projetPro/EDITO_HJSC.png",
-                "/Book_AF/img/projetPro/HOME_HJSC.png"
+                "/Book_AF/img/projetPro/EDITO_Nevers.png",
+                "/Book_AF/img/projetPro/HOME_Nevers.png"
             ]
         },
         {
@@ -79,12 +40,62 @@
             ]
         },
         {
-            "titre": "Doubs Pro",
-            "logo": "/Book_AF/img/logo/DoubsPro.png",
-            "date": "Mai 2022",
-            "url": "https://www.doubs-tourisme-pro.com/",
+            "titre": "Haut Jura Saint Claude",
+            "logo": "/Book_AF/img/logo/HJSC.png",
+            "date": "Décembre 2023",
+            "url": "https://www.haut-jura-saint-claude.com/",
             "image": [
-                "/Book_AF/img/projetPro/HOME_DoubsPro.png"
+                "/Book_AF/img/projetPro/EDITO_HJSC.png",
+                "/Book_AF/img/projetPro/HOME_HJSC.png"
+            ]
+        },
+        {
+            "titre": "Morvans Sommet Grands Lacs",
+            "logo": "/Book_AF/img/logo/morvan.png",
+            "date": "Avril 2023",
+            "url": "https://www.morvansommetsetgrandslacs.com/",
+            "image": [
+                "/Book_AF/img/projetPro/EDITO_MSGL.png",
+                "/Book_AF/img/projetPro/HOME_MSGL.png"
+            ]
+        },
+        {
+            "titre": "Luxeuil les Bains",
+            "logo": "/Book_AF/img/logo/Luxeuil.png",
+            "date": "Février 2023",
+            "url": "https://www.luxeuil-vosges-sud.fr/",
+            "image": [
+                "/Book_AF/img/projetPro/EDITO_Lux.png",
+                "/Book_AF/img/projetPro/HOME_Lux.png"
+            ]
+        },
+        {
+            "titre": "MASCOT",
+            "logo": "/Book_AF/img/logo/Mascot.png",
+            "date": "Février 2023",
+            "url": "https://www.mascotbfc.com/",
+            "image": [
+                "/Book_AF/img/projetPro/HOME_Mascot.png"
+            ]
+        },
+        {
+            "titre": "Terres d'Auxois",
+            "logo": "/Book_AF/img/logo/Auxois.png",
+            "date": "Décembre 2022",
+            "url": "https://www.terres-auxois.fr/",
+            "image": [
+                "/Book_AF/img/projetPro/EDITO_Auxois.png",
+                "/Book_AF/img/projetPro/HOME_Auxois.png"
+            ]
+        },
+        {
+            "titre": "Canal du Nivernais",
+            "logo": "/Book_AF/img/logo/Nivernais.png",
+            "date": "Octobre 2022",
+            "url": "https://www.canal-du-nivernais.com/",
+            "image": [
+                "/Book_AF/img/projetPro/EDITO_Nivernais.png",
+                "/Book_AF/img/projetPro/HOME_Nivernais.png"
             ]
         },
         {
@@ -108,23 +119,22 @@
             ]
         },
         {
-            "titre": "Nevers",
-            "logo": "/Book_AF/img/logo/NEVERS.png",
-            "date": "Aout 2024",
-            "url": "https://www.nevers-tourisme.com/",
+            "titre": "Saône Doubs Bresse",
+            "logo": "/Book_AF/img/logo/SDB.png",
+            "date": "Mai 2022",
+            "url": "https://www.saonedoubsbressetourisme.fr/",
             "image": [
-                "/Book_AF/img/projetPro/EDITO_Nevers.png",
-                "/Book_AF/img/projetPro/HOME_Nevers.png"
+                "/Book_AF/img/projetPro/EDITO_SDB.png",
+                "/Book_AF/img/projetPro/HOME_SDB.png"
             ]
         },
         {
-            "titre": "Parc du Morvans",
-            "logo": "/Book_AF/img/logo/ParcMorvan.png",
-            "date": "Mai 2025",
-            "url": "https://tourisme.parcdumorvan.org/",
+            "titre": "Doubs Pro",
+            "logo": "/Book_AF/img/logo/DoubsPro.png",
+            "date": "Mai 2022",
+            "url": "https://www.doubs-tourisme-pro.com/",
             "image": [
-                "/Book_AF/img/projetPro/EDITO_Morvans.png",
-                "/Book_AF/img/projetPro/HOME_Morvans.png"
+                "/Book_AF/img/projetPro/HOME_DoubsPro.png"
             ]
         },
         {
@@ -134,16 +144,6 @@
             "url": "https://www.tourismepouillybligny.fr/",
             "image": [
                 "/Book_AF/img/projetPro/HOME_Pouilly.png"
-            ]
-        },
-        {
-            "titre": "Terres d'Auxois",
-            "logo": "/Book_AF/img/logo/Auxois.png",
-            "date": "Décembre 2022",
-            "url": "https://www.terres-auxois.fr/",
-            "image": [
-                "/Book_AF/img/projetPro/EDITO_Auxois.png",
-                "/Book_AF/img/projetPro/HOME_Auxois.png"
             ]
         },
         {
@@ -163,6 +163,10 @@
         {
             "titre": "HTML5",
             "image": "/Book_AF/img/outilLang/HTML5.png"
+        },
+        {
+            "titre": "Sass",
+            "image": "/Book_AF/img/outilLang/Sass.png"
         },
         {
             "titre": "JavaScript",
