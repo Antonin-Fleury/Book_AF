@@ -65,12 +65,12 @@ h1,
 h2,
 h3 {
   font-family: 'Oxta';
-  margin-bottom: 20px;
 }
 
 h2,
 h3 {
   color: transparent;
+  margin-bottom: 20px;
 }
 
 a,
@@ -115,6 +115,13 @@ button {
   }
 }
 
+.metier {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+}
+
 .overlayActif {
   overflow: hidden;
 }
@@ -155,6 +162,10 @@ button {
   p {
     font-size: 20px;
   }
+
+  .metier {
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -180,6 +191,9 @@ button {
     font-size: 30px;
   }
 
+  .metier {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -208,5 +222,9 @@ button {
 
   p {
     font-size: 16px;
+  }
+
+  .metier {
+    font-size: 25px;
   }
 }
