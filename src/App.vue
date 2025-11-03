@@ -23,9 +23,9 @@
     <h1>Antonin FLEURY</h1>
 
     <p class="accroche">
-      Webdesigner / Développeur web expérimenté avec 4 ans de pratique. J'aborde chaque projet avec motivation,
-      enthousiasme et une curiosité constante. Je suis passionné par l'apprentissage continu et le perfectionnement de
-      mes compétences dans des domaines variés du web.
+      Webdesigner et développeur web fort de 4 ans d’expérience, je conçois des interfaces modernes, intuitives et
+      performantes, alliant créativité et rigueur technique. À l’aise aussi bien en autonomie qu’en équipe, je contribue
+      efficacement à la réussite de projets web cohérents et innovants.
     </p>
     <div :aria-busy="state === 'loading'">
       <div class="category">
