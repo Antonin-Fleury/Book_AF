@@ -14,9 +14,11 @@
                 <ul>
                     <div v-for="description in selectedProjet?.descrLongue" :key="description.texte"
                         :class="['description']">
-                        <p class="descriptionLongue">
-                            <li>{{ description }}</li>
-                        </p>
+                        <li>
+                            <p class="descriptionLongue">
+                                {{ description }}
+                            </p>
+                        </li>
                     </div>
                 </ul>
                 <button @click="closeOverlay" class="close"></button>
