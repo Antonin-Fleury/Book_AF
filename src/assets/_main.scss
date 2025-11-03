@@ -22,11 +22,16 @@ header {
 
     a {
       align-content: center;
+      height: fit-content;
     }
 
-    .linkedin {
+    .reseauxSociaux {
       background: none;
       padding: 0;
+
+      &:hover {
+        background: none !important;
+      }
     }
 
     img {

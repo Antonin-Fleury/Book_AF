@@ -3,9 +3,9 @@
   <header>
     <img src="/img/logo.png" alt="">
     <div class="contact">
-      <a href="https://www.instagram.com/tintin_prod.creative/" target="_blank" class="linkedin"><img
+      <a href="https://www.instagram.com/tintin_prod.creative/" target="_blank" class="reseauxSociaux"><img
           src="/img/projetPerso/Insta.png" alt="Logo instagram"> </a>
-      <a href="https://www.linkedin.com/in/antonin-fleury-731888183/" target="_blank" class="linkedin"><img
+      <a href="https://www.linkedin.com/in/antonin-fleury-731888183/" target="_blank" class="reseauxSociaux"><img
           src="/img/logo/LinkedIn.png" alt="Logo LinkedIn"></a>
       <a href="mailto:antonin.fleury@hotmail.com">Contact</a>
     </div>
@@ -23,8 +23,9 @@
     <h1>Antonin FLEURY</h1>
 
     <p class="accroche">
-      Webdesigner / Développeur web depuis 3 ans, je suis en quête de nouvelles expériences professionnelles. Je suis
-      toujours motivé, enthousiaste et curieux. J'aime apprendre et me perfectionner dans divers domaines.
+      Webdesigner / Développeur web expérimenté avec 4 ans de pratique. J'aborde chaque projet avec motivation,
+      enthousiasme et une curiosité constante. Je suis passionné par l'apprentissage continu et le perfectionnement de
+      mes compétences dans des domaines variés du web.
     </p>
     <div :aria-busy="state === 'loading'">
       <div class="category">

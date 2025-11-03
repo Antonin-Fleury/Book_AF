@@ -11,7 +11,15 @@
         <div v-if="showOverlay" class="overlay" @click.self="closeOverlay">
             <div class="popup">
                 <h3>{{ selectedProjet?.titre }}</h3>
-                <p class="description">{{ selectedProjet?.descrLongue }}</p>
+                <p class="description">{{ }}</p>
+                <ul>
+                    <div v-for="description in selectedProjet?.descrLongue" :key="description.texte"
+                        :class="['description']">
+                        <p class="descriptionLongue">
+                            <li>{{ description }}</li>
+                        </p>
+                    </div>
+                </ul>
                 <button @click="closeOverlay" class="close"></button>
             </div>
         </div>

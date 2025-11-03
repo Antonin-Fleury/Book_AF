@@ -119,8 +119,13 @@
             width: 90%;
 
             .description {
-                max-width: 500px;
-                place-self: center;
+                max-width: 95%;
+                text-align: left;
+                font-size: 1.5rem;
+            }
+
+            .descriptionLongue {
+                font-size: 1.5rem;
             }
 
             .image {
@@ -273,6 +278,10 @@
 
         .overlay {
             .popup {
+                .descriptionLongue {
+                    font-size: 1rem;
+                }
+
                 .image {
                     img {
                         max-width: 300px;

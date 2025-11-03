@@ -5,7 +5,12 @@
             "logo": "/img/logo/BFCT.jpg",
             "date": "2021-2025",
             "descCourte": "Comité régional du tourisme de Bourgogne-Franche-Comté",
-            "descrLongue": "Créatif polyvalent, je conçois et intègre des sites web sur mesure dans un environnement WordPress personnalisé. J'assure également la création graphique (designs, bannières, affiches, visuels pour les réseaux sociaux, newsletters, vidéos courtes, etc.). En parallèle, j’occupe un rôle de chef de projet sur l’outil Monday, garantissant le suivi et la coordination efficace des projets de communication."
+            "descrLongue": [
+                "Prise en charge de la création et de la maintenance de sites web, de la phase de maquettage (UI/UX) au développement front-end.",
+                "Intégration et Respect des Standards : Assurance de la conformité des projets avec les contraintes techniques de la « Fabriques à Sites » et application rigoureuse du « Design System » interne.",
+                "Gestion de Projet : Prise en charge du pilotage de l'outil de gestion de projet « Monday », assurant le suivi et l'organisation des tâches de l'équipe.",
+                "Création Graphique Multi-marques : Conception et réalisation de divers supports visuels (bannières, newsletters, affiches, vidéos, cartes) pour les marques de BFCTourisme (Montagnes du Jura, La Bourgogne, Vosges du Sud, Sortez Chez Vous)."
+            ]
         }
     ],
     "projetsPro": [
