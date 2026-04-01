@@ -18,22 +18,22 @@
     "projetsPro": [
         {
             "titre": "Musée de l'abbaye",
-            "logo": "/Book_AF/img/logo/ParcMorvan.png",
+            "logo": "/Book_AF/img/logo/logo_MuseeAbbaye_blanc.png",
             "date": "Mars 2026",
             "url": "https://www.museedelabbaye.fr/",
             "image": [
-                "/Book_AF/img/projetPro/EDITO_Nevers.png",
-                "/Book_AF/img/projetPro/HOME_Nevers.png"
+                "/Book_AF/img/projetPro/EDITO_Musee.png",
+                "/Book_AF/img/projetPro/HOME_Musee.png"
             ]
         },
         {
             "titre": "Lure",
-            "logo": "/Book_AF/img/logo/ParcMorvan.png",
+            "logo": "/Book_AF/img/logo/Lure.png",
             "date": "Aout 2025",
             "url": "https://par-nature.pays-de-lure.fr/",
             "image": [
-                "/Book_AF/img/projetPro/EDITO_Nevers.png",
-                "/Book_AF/img/projetPro/HOME_Nevers.png"
+                "/Book_AF/img/projetPro/EDITO_Lure.png",
+                "/Book_AF/img/projetPro/HOME_Lure.png"
             ]
         },
         {
