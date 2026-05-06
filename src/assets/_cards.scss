@@ -1,3 +1,5 @@
+@use 'variables.scss';
+
 .elements {
     position: relative;
     display: flex;
@@ -150,6 +152,7 @@
                         max-height: 500px;
                         margin: 10px;
                     }
+
                 }
 
                 &.-projetPerso {
@@ -347,4 +350,40 @@
             }
         }
     }
+
+    .OutilsCards {
+        position: relative;
+
+        .titreOutils {
+            position: absolute;
+            top: -70px;
+            font-size: 20px;
+            color: variables.$color_fond;
+            background-color: variables.$color_white;
+            padding: 10px;
+            border-radius: 10px;
+            z-index: 1;
+            text-align: center;
+            place-self: center;
+            display: none;
+
+            &:before {
+                content: "";
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                background-color: variables.$color_white;
+                transform: rotate(45deg);
+                bottom: -9px;
+                left: 30px;
+            }
+        }
+
+        &:hover {
+            .titreOutils {
+                display: block;
+            }
+        }
+    }
+
 }

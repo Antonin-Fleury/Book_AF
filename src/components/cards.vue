@@ -47,15 +47,18 @@
 
                     <Slider :images="selectedProjet?.image" v-if="selectedProjet?.image.length > 2" />
                 </div>
-                <a :href="selectedProjet?.url" target="_blank">Voir le site</a>
+                <a v-if="selectedProjet?.url" :href="selectedProjet?.url" target="_blank">Voir le site</a>
                 <button @click="closeOverlay" class="close"></button>
             </div>
         </div>
     </div>
 
     <div v-if="theme === 'outils'" class="elements right">
-        <div v-for="outils in cards.outilsLang" :key="outils.image" :class="['cards', 'outils']">
-            <img :src="outils.image" :alt="outils.titre + ' logo'">
+        <div v-for="outils in cards.outilsLang" :key="outils.image" class="OutilsCards">
+            <span class="titreOutils">{{ outils.titre }}</span>
+            <div :class="['cards', 'outils']">
+                <img :src="outils.image" :alt="outils.titre + ' logo'">
+            </div>
         </div>
     </div>
 
