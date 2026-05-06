@@ -205,11 +205,15 @@
             "image": "/Book_AF/img/outilLang/JavaScript.png"
         },
         {
+            "titre": "Vue JS",
+            "image": "/Book_AF/img/outilLang/Vue.png"
+        },
+        {
             "titre": "PhpStorm",
             "image": "/Book_AF/img/outilLang/PhpStorm.png"
         },
         {
-            "titre": "Visual Studio Code",
+            "titre": "Visual Code",
             "image": "/Book_AF/img/outilLang/Visual.png"
         },
         {
@@ -219,6 +223,14 @@
         {
             "titre": "Adobe XD",
             "image": "/Book_AF/img/outilLang/XD.png"
+        },
+        {
+            "titre": "Première Pro",
+            "image": "/Book_AF/img/outilLang/Premiere.png"
+        },
+        {
+            "titre": "After Effect",
+            "image": "/Book_AF/img/outilLang/AfterEffect.png"
         },
         {
             "titre": "Figma",
