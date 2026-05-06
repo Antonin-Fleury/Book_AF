@@ -281,6 +281,9 @@ button:hover {
     .category:nth-child(odd) .texte {
   justify-content: end;
 }
+    .category .instagram-feed {
+  margin-top: 20px;
+}
     footer {
   display: flex;
   justify-content: space-between;
@@ -522,6 +525,35 @@ button:hover {
     font-size: 0.75rem;
   }
 }
+    .elements .OutilsCards {
+  position: relative;
+}
+    .elements .OutilsCards .titreOutils {
+  position: absolute;
+  top: -70px;
+  font-size: 20px;
+  color: #020202;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 1;
+  text-align: center;
+  place-self: center;
+  display: none;
+}
+    .elements .OutilsCards .titreOutils:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  transform: rotate(45deg);
+  bottom: -9px;
+  left: 30px;
+}
+    .elements .OutilsCards:hover .titreOutils {
+  display: block;
+}
     .slider {
   position: relative;
   width: 100%;
@@ -593,7 +625,16 @@ button:hover {
   }
 }
   </style>
-  <script type="module" crossorigin src="/Book_AF/assets/index-3TDCffeY.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1NCBBK519J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1NCBBK519J');
+  </script>
+  <script type="module" crossorigin src="/Book_AF/assets/index-QN-j5boO.js"></script>
 </head>
 
 <body>

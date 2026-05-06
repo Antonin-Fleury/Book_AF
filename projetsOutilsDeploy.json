@@ -17,23 +17,32 @@
     ],
     "projetsPro": [
         {
+            "titre": "BFC Tournages & Cinéma",
+            "logo": "/Book_AF/img/logo/T&C.png",
+            "date": "Février 2023",
+            "url": "https://tournages.bourgognefranchecomte.com/",
+            "image": [
+                "/Book_AF/img/projetPro/HOME_T&C.png"
+            ]
+        },
+        {
             "titre": "Musée de l'abbaye",
-            "logo": "/Book_AF/img/logo/logo_MuseeAbbaye_blanc.png",
+            "logo": "/Book_AF/img/logo/ParcMorvan.png",
             "date": "Mars 2026",
             "url": "https://www.museedelabbaye.fr/",
             "image": [
-                "/Book_AF/img/projetPro/EDITO_Musee.png",
-                "/Book_AF/img/projetPro/HOME_Musee.png"
+                "/Book_AF/img/projetPro/EDITO_Nevers.png",
+                "/Book_AF/img/projetPro/HOME_Nevers.png"
             ]
         },
         {
             "titre": "Lure",
-            "logo": "/Book_AF/img/logo/Lure.png",
+            "logo": "/Book_AF/img/logo/ParcMorvan.png",
             "date": "Aout 2025",
             "url": "https://par-nature.pays-de-lure.fr/",
             "image": [
-                "/Book_AF/img/projetPro/EDITO_Lure.png",
-                "/Book_AF/img/projetPro/HOME_Lure.png"
+                "/Book_AF/img/projetPro/EDITO_Nevers.png",
+                "/Book_AF/img/projetPro/HOME_Nevers.png"
             ]
         },
         {
@@ -196,11 +205,15 @@
             "image": "/Book_AF/img/outilLang/JavaScript.png"
         },
         {
+            "titre": "Vue JS",
+            "image": "/Book_AF/img/outilLang/Vue.png"
+        },
+        {
             "titre": "PhpStorm",
             "image": "/Book_AF/img/outilLang/PhpStorm.png"
         },
         {
-            "titre": "Visual Studio Code",
+            "titre": "Visual Code",
             "image": "/Book_AF/img/outilLang/Visual.png"
         },
         {
@@ -210,6 +223,14 @@
         {
             "titre": "Adobe XD",
             "image": "/Book_AF/img/outilLang/XD.png"
+        },
+        {
+            "titre": "Première Pro",
+            "image": "/Book_AF/img/outilLang/Premiere.png"
+        },
+        {
+            "titre": "After Effect",
+            "image": "/Book_AF/img/outilLang/AfterEffect.png"
         },
         {
             "titre": "Figma",
