@@ -17,6 +17,15 @@
     ],
     "projetsPro": [
         {
+            "titre": "BFC Tournages & Cinéma",
+            "logo": "/img/logo/T&C.png",
+            "date": "Février 2023",
+            "url": "https://tournages.bourgognefranchecomte.com/",
+            "image": [
+                "/img/projetPro/HOME_T&C.png"
+            ]
+        },
+        {
             "titre": "Luxeuil les Bains",
             "logo": "/img/logo/Luxeuil.png",
             "date": "Février 2023",
@@ -176,11 +185,15 @@
             "image": "/img/outilLang/JavaScript.png"
         },
         {
+            "titre": "Vue JS",
+            "image": "/img/outilLang/Vue.png"
+        },
+        {
             "titre": "PhpStorm",
             "image": "/img/outilLang/PhpStorm.png"
         },
         {
-            "titre": "Visual Studio Code",
+            "titre": "Visual Code",
             "image": "/img/outilLang/Visual.png"
         },
         {
@@ -190,6 +203,14 @@
         {
             "titre": "Adobe XD",
             "image": "/img/outilLang/XD.png"
+        },
+        {
+            "titre": "Première Pro",
+            "image": "/img/outilLang/Premiere.png"
+        },
+        {
+            "titre": "After Effect",
+            "image": "/img/outilLang/AfterEffect.png"
         },
         {
             "titre": "Figma",

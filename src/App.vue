@@ -21,9 +21,9 @@
   <main v-else>
 
     <h1>Antonin FLEURY</h1>
-    <span class="metier">Webdesigner et développeur web</span>
+    <span class="metier">Webdesigner (UX/UI) et développeur web</span>
     <p class="accroche">
-      Fort de 4 ans d’expérience, je conçois des interfaces modernes, intuitives et
+      Fort de 5 ans d’expérience, je conçois des interfaces modernes, intuitives et
       performantes, alliant créativité et rigueur technique. À l’aise aussi bien en autonomie qu’en équipe, je contribue
       efficacement à la réussite de projets web cohérents et innovants.
     </p>
@@ -64,12 +64,20 @@
         <h2>
           Projets Perso
         </h2>
+        <Cards :cards="cards" :theme="'projetPerso'" v-if="cards" />
+      </div>
+
+      <div class="category">
+        <h2>
+          Instagram
+        </h2>
         <div class="texte projetPerso">
           <p>Pour plus de design (un design tous les mercredis à 18h): </p><a
             href="https://www.instagram.com/tintin_prod.creative/" target="_blank"> <img
               src="/img/projetPerso/Insta.png" alt="Logo Instagram"> </a>
         </div>
-        <Cards :cards="cards" :theme="'projetPerso'" v-if="cards" />
+        <InstagramFeed />
+
       </div>
 
     </div>
@@ -89,6 +97,8 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import Cards from './components/cards.vue'
+import InstagramFeed from './components/insta.vue'
+
 
 const cards = ref(null)
 const state = ref('loading')
@@ -110,6 +120,7 @@ onMounted(() => {
       state.value = 'error'
     })
 })
+
 
 
 function reloadPage() {
