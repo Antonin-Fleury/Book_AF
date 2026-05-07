@@ -27,7 +27,7 @@
         },
         {
             "titre": "Musée de l'abbaye",
-            "logo": "/Book_AF/img/logo/ParcMorvan.png",
+            "logo": "/Book_AF/img/logo/MuseeAbbaye.png",
             "date": "Mars 2026",
             "url": "https://www.museedelabbaye.fr/",
             "image": [
@@ -37,7 +37,7 @@
         },
         {
             "titre": "Lure",
-            "logo": "/Book_AF/img/logo/ParcMorvan.png",
+            "logo": "/Book_AF/img/logo/Lure.png",
             "date": "Aout 2025",
             "url": "https://par-nature.pays-de-lure.fr/",
             "image": [
